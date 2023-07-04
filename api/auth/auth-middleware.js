@@ -6,9 +6,10 @@
     "message": "Geçemezsiniz!"
   }
 */
-function sinirli() {
-
+function sinirli( req, res, next ) {
+ 
 }
+
 
 /*
   req.body de verilen username halihazırda veritabanında varsa
